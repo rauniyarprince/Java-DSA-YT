@@ -22,5 +22,6 @@ public class CheckPrime {
       else{
         System.out.println("number is prime");
       }
+      sc.close();
     }
   }
