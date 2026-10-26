@@ -1,4 +1,4 @@
-public class tablefunc {
+public class functype {
   static void print2katable(){
   for(int i=1;i<=10;i++){
     int ans = 2*i ; 
