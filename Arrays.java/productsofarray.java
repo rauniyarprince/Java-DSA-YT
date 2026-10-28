@@ -7,7 +7,6 @@ public class productsofarray {
        Product *= value ;
        System.out.println(Product);
 
-
     }
   }
   
