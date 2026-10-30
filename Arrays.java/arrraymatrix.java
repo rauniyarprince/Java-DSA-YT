@@ -17,9 +17,16 @@ public class MatrixMultiplication {
 
         if (colsA != rowsB) {
             System.out.println("Cannot multiply: columns of the first matrix "
-        
-        for (int i = 0; i < rowsA; i++) {
-            for (int j = 0; j < colsB; j++) {
+                    + "must equal rows of the second.");
+            input.close();
+            return;
+        }
+
+        int[][] a = new int[rowsA][colsA];
+        int[][] b = new int[rowsB][colsB];
+        int[][] result = new int[rowsA][colsB];
+
+        System.ou{
                 for (int k = 0; k < colsA; k++) {
                     result[i][j] += a[i][k] * b[k][j];
                 }
