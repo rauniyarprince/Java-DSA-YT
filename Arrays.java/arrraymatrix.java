@@ -26,7 +26,14 @@ public class MatrixMultiplication {
         int[][] b = new int[rowsB][colsB];
         int[][] result = new int[rowsA][colsB];
 
-        System.ou{
+        System.out.println("Enter the first matrix:");
+        readMatrix(input, a);
+
+        System.out.println("Enter the second matrix:");
+        readMatrix(input, b);
+
+        for (int i = 0; i < rowsA; i++) {
+            for (int j = 0; j < colsB; j++) {
                 for (int k = 0; k < colsA; k++) {
                     result[i][j] += a[i][k] * b[k][j];
                 }
