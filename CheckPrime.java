@@ -18,6 +18,7 @@ public class CheckPrime {
       }
       else if(count == 1){
         System.out.println("number is not Prime");
+System.out.println("number is number is 1");
       }
       else{
         System.out.println("number is prime");
