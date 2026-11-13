@@ -15,8 +15,14 @@ System.out.println(a);
         System.out.println(num2);
         float
 
-        byte b= 10;
-        System.out.println(b);
+        byte b= 10System.out.println(d);
+        long l = 20596633;
+        System.out.println(l);
+        char c = 'a';
+System.out.println(a);
+        short num2 = 4000;
+        System.out.println(num2);
+        float);
         System.out.println("char ASCII is " + (char) + (c+10));System.out.println(d);
         long l = 20596633;
         System.out.println(l);
