@@ -9,8 +9,7 @@ public class Datatypes {
         double d = 85696.2650055;
         System.out.println(d);
         long l = 20596633;
-        System.out.println(l);
-        char c = 'a';
+      
 System.out.println(a);
         short num2 = 4000;
         System.out.println(num2);
