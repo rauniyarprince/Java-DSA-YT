@@ -9,7 +9,7 @@ public class Checkage {
     if(age <= 18){
       }
     else{
-      System.out.println("eligible for vote");
+      System.out.println("eligible vote");
     }
   }
 }
