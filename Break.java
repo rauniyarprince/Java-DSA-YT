@@ -12,6 +12,7 @@ System.out.print("enter number :");
     if(i==5){
       break;
     }
+System.out.print("executed ");
   }
 }
 }
