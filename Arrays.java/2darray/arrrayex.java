@@ -12,5 +12,7 @@ public class arrrayex {
     };
 
 System.out.println(brr[1][0]);
+System.out.println(brr[1][1]);
+
   }
 }
